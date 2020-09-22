@@ -34,7 +34,7 @@ export default App;
 
 const LeaderboardItem = ({Username, AvailableFunds}) => (
   <tr>
-    <td><a href="http://twitch.tv/{Username}">{Username}</a></td>
+    <td><b>{Username}</b></td>
     <td align="right">{AvailableFunds.toLocaleString()}</td>
   </tr>
 );
